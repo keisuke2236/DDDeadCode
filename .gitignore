@@ -1,0 +1,59 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 仮想環境
+venv/
+env/
+ENV/
+
+datadog_env/
+
+# IDEとエディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# Datadog API スクリプト特有
+*.csv
+config.ini
+.env
+
+# ログ
+*.log
+
+# テスト
+.pytest_cache/
+.coverage
+htmlcov/
+
+# その他
+*.bak
+*.tmp
+*.temp
